@@ -12,7 +12,7 @@
 
   <div id="app">
 
-    <header class="parallax-bg" style="background-image: url('https://images.pexels.com/photos/2892618/pexels-photo-2892618.jpeg'); background-position: bottom; height: 500px;">
+    <header class="parallax-bg" style="background-image: middle url('https://images.pexels.com/photos/6109677/pexels-photo-6109677.jpeg'); height: 500px;">
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
           <a class="navbar-brand" href="{{ home_url('/') }}"><img src="https://louhosdigital.fi/img/louhos-gold.svg" alt="{{ get_bloginfo('name', 'display') }}" height="30"></a>
