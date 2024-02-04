@@ -1,0 +1,43 @@
+
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.navbar-nav li {
+  margin-left: 35px;
+}
+
+
+.navbar-nav li.current-menu-item {
+  color: #ff0000; 
+}
+
+.navbar-nav li a {
+  color: #333; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  color: #D8A555;
+}
+
+.footer {
+  background-color: #333; 
+  color: #fff;
+  padding: 20px;
+}

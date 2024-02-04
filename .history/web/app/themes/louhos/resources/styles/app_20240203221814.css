@@ -1,0 +1,35 @@
+
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Общий стиль для пунктов меню */
+.navbar-nav li {
+  margin-right: 10px; /* Задаем отступ справа между пунктами меню */
+}
+
+/* Стиль для активного пункта меню */
+.navbar-nav li.current-menu-item {
+  color: #ff0000; /* Задаем цвет для активного пункта меню */
+}
+
+/* Стиль для ссылок внутри пунктов меню */
+.navbar-nav li a {
+  color: #333; /* Задаем цвет текста для ссылок в меню */
+  text-decoration: none; /* Убираем подчеркивание под ссылками */
+}
+
+/* Стиль для ссылок при наведении */
+.navbar-nav li a:hover {
+  color: #555; /* Задаем цвет текста при наведении на ссылку */
+}

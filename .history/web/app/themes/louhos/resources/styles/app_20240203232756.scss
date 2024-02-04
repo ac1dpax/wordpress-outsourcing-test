@@ -1,0 +1,39 @@
+
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.navbar-nav li {
+  margin-left: 15px;
+}
+
+
+.navbar-nav li.current-menu-item {
+  color: #ff0000; 
+}
+
+.navbar-nav li a {
+  color: #333; 
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+  color: #555;
+}
+
+.footer {
+  background-color: #333; /* Цвет фона футера */
+  color: #fff; /* Цвет текста в футере */
+  padding: 20px; /* Поля внутри футера */
+}
